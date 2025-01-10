@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to left, #8a2ce2, #37006b);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+nav{
+    background-image: linear-gradient(to left,#8a2ce2, #37006b );
+    padding: 6px;
+
+}
+
+nav > a{
+    color: white;
+    padding: 10px 10px ;
+    margin: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+nav > a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+}
+
+main{
+    background-color: white;
+    margin: 30px;
+}
+
+.sobremim{
+    margin: 20px;
+    padding: 30px 10px;
+}
+
+section > p{
+    margin: 0px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cursoemvideo{
+    background-color: #8a2ce22d;
+}
